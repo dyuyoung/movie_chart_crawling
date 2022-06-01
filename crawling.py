@@ -27,7 +27,6 @@ for i in range(1, 20) :
 
 ticket=int(input("개봉일을 알고싶은 영화의 순위를 입력해주세요>>> "))
 
-day=soup.find_all("em", attrs={"class":"dday"})
 ps=soup.find_all("span", attrs={"class":"txt-info"})
 j=[]
 for p in ps :
